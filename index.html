@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orbit Innovations — Building Apps That Move the World Forward</title>
+  <meta name="description"
+    content="Orbit Innovations crafts AI-powered applications, mobile platforms, and developer tools that solve real-world problems.">
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/266132423?s=32&v=4">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <canvas id="starfield"></canvas>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="https://avatars.githubusercontent.com/u/266132423?s=200&v=4" alt="Orbit Innovations"
+          class="nav-logo-img">
+        <span class="nav-logo-text">Orbit Innovations</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta-wrap">
+        <a href="#contact" class="nav-cta">Get in Touch</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-eyebrow">Orbit Innovations</div>
+        <h1>Building apps that<br>move the world<br><em>forward.</em></h1>
+        <p class="hero-desc">We're a small studio from Kolkata that designs and ships mobile apps, AI-powered tools, and
+          open-source software — for people, not just users.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-fill">See our work</a>
+          <a href="#about" class="btn-ghost">What we do</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit-line">
+          <div class="orbit-moon"></div>
+        </div>
+        <div class="orbit-line">
+          <div class="orbit-moon blue"></div>
+        </div>
+        <div class="planet"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-eyebrow">What we do</div>
+        <h2 class="section-heading">Building Apps That Move<br>the World Forward</h2>
+        <p class="section-desc">We don't do everything. We do a few things with conviction — shipping products that are
+          thoughtful, well-crafted, and genuinely useful.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-cell reveal">
+          <div class="about-num">01</div>
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites and web apps built with the latest frameworks — crafted for performance,
+            designed for humans, and shipped to impress.</p>
+        </div>
+        <div class="about-cell reveal">
+          <div class="about-num">02</div>
+          <h3>Cross-Platform App Development</h3>
+          <p>We build apps with Flutter that run beautifully on both Android and iOS — one codebase, native feel,
+            shipped to the Play Store and beyond.</p>
+        </div>
+        <div class="about-cell reveal">
+          <div class="about-num">03</div>
+          <h3>AI-Powered Tools</h3>
+          <p>From smart study tools to computer vision pipelines — we fold machine learning into products where it makes
+            a real difference, not just a talking point.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-eyebrow">Our work</div>
+        <h2 class="section-heading">Projects in Orbit</h2>
+        <p class="section-desc">Real products, shipped to real users.</p>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="app-title">ScholarX</div>
+              <div class="app-subtitle">MAKAUT Notes & PYQs</div>
+              <div class="app-card-mini">
+                <div class="label">Notes & PYQs</div>
+                <div class="value">All Semesters</div>
+              </div>
+              <div class="app-card-mini">
+                <div class="label">Practice</div>
+                <div class="value">Mock Tests & Focus Qs</div>
+              </div>
+              <div class="app-card-mini">
+                <div class="label">Tools</div>
+                <div class="value">CGPA Calculator</div>
+              </div>
+              <div class="app-card-mini">
+                <div class="label">Status</div>
+                <div class="value" style="color:var(--accent)">● Live on Play Store</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tag">Education · Android · Built by Students</div>
+          <h3>ScholarX — One App, One System</h3>
+          <p>Most MAKAUT students struggle not because they lack ability — but because everything is scattered. Notes in
+            one place, PYQs somewhere else, syllabus buried in PDFs. ScholarX fixes that.</p>
+          <p>An all-in-one platform built specifically for MAKAUT students to prepare smarter, not harder — with
+            organized notes, a PYQ bank to understand exam patterns, exam-focused questions, mock tests, a CGPA
+            calculator, and full offline access. No more switching between multiple sources.</p>
+          <div class="project-techs">
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>Offline-First</span>
+            <span>CGPA Calculator</span>
+            <span>Mock Tests</span>
+          </div>
+          <a href="https://play.google.com/store/apps/details?id=com.orbitinnovations.makaut_scholar" target="_blank"
+            class="project-link">
+            Try it on Play Store <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-eyebrow">The crew</div>
+        <h2 class="section-heading">Humans Behind the Code</h2>
+        <p class="section-desc">A small team with big ambitions — connected by a shared love for building things that
+          matter.</p>
+      </div>
+      <div class="team-grid">
+        <!-- Ankur -->
+        <div class="team-card reveal">
+          <div class="team-avatar-wrap">
+            <img src="https://github.com/ankurrera.png" alt="Ankur Bag" class="team-avatar">
+            <div class="team-avatar-ring"></div>
+          </div>
+          <h3>Ankur Bag</h3>
+          <div class="team-role">Founder · Full-Stack & Web</div>
+          <p class="team-bio">Computer Science Student. Builds portfolios, life-tracking RPG systems, and biometric
+            medical apps. Into web development & more.</p>
+
+          <div class="team-socials">
+            <a href="https://github.com/ankurrera" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ankurrera/" target="_blank"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://x.com/ankurrera" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.ankurr.codes/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+        <!-- Sakshi -->
+        <div class="team-card reveal">
+          <div class="team-avatar-wrap">
+            <img src="https://github.com/sahasakshi.png" alt="Sakshi Saha" class="team-avatar">
+            <div class="team-avatar-ring"></div>
+          </div>
+          <h3>Sakshi Saha</h3>
+          <div class="team-role">Co-Founder · Web Development</div>
+          <p class="team-bio">Computer Science Student passionate about web development, building real-world
+            applications and modern interfaces with TypeScript.</p>
+
+          <div class="team-socials">
+            <a href="https://github.com/sahasakshi" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sakshisaha05/" target="_blank"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/sakshixox_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <!-- Sayan -->
+        <div class="team-card reveal">
+          <div class="team-avatar-wrap">
+            <img src="https://github.com/sayann70.png" alt="Sayan Sarkar" class="team-avatar">
+            <div class="team-avatar-ring"></div>
+          </div>
+          <h3>Sayan Sarkar</h3>
+          <div class="team-role">Co-Founder · Android & Open Source</div>
+          <p class="team-bio">Psychology Student turned Android developer. Deep into AOSP, Linux, and open source —
+            building everything from custom ROMs to Telegram bots, just for fun.</p>
+
+          <div class="team-socials">
+            <a href="https://github.com/sayann70" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sayann70" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/ofcsayan" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.ofcsayan.in" target="_blank"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section class="cta-section" id="contact">
+    <div class="section-inner reveal">
+      <div class="section-eyebrow">Let's talk</div>
+      <h2 class="section-heading">Got something worth building?</h2>
+      <p class="section-desc" style="margin:0 auto 2.5rem">We're always up for the next challenge. Reach out — even if
+        it's just to say hi.</p>
+      <a href="mailto:ankurr.era@gmail.com" class="btn-fill">Start a conversation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Team</a>
+        <a href="https://github.com/OrbitInnovations" target="_blank">GitHub</a>
+      </div>
+      <p class="footer-copy">© 2026 Orbit Innovations · Kolkata</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>s
+
+</html>
