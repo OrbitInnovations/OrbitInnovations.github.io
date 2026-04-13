@@ -66,7 +66,8 @@ ht.from('.hero-eyebrow', { opacity: 0, x: -20, duration: 0.6 })
   .from('.hero h1', { opacity: 0, y: 40, duration: 0.9 }, '-=0.3')
   .from('.hero-desc', { opacity: 0, y: 20, duration: 0.7 }, '-=0.4')
   .from('.hero-actions', { opacity: 0, y: 15, duration: 0.6 }, '-=0.3')
-  .from('.planet', { opacity: 0, scale: 0.85, duration: 1.2, ease: 'power3.out' }, '-=0.8')
+  .from('.planet-glow', { opacity: 0, scale: 0.5, duration: 1.4, ease: 'power3.out' }, '-=0.8')
+  .from('.planet', { opacity: 0, scale: 0.85, duration: 1.2, ease: 'power3.out' }, '-=1.2')
   .from('.orbit-line', { opacity: 0, scale: 0.5, duration: 1, stagger: 0.15 }, '-=0.9');
 
 // Scroll reveal
